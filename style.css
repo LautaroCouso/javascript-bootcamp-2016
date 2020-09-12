@@ -1,0 +1,47 @@
+body{
+   font-family: Helvetica;
+   font-weight: bold;
+   margin: 0px;
+}
+
+header{
+   background-color: lightskyblue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+   box-shadow: 10px 10px 10px #f5f5f5;
+   border: none;
+}
+
+header h1{
+   color: royalblue;
+}
+
+#search {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
+
+button {
+   background-color: cornflowerblue ;
+   color: white;
+   border-radius: 3px;
+   border: none;
+   padding: 5px;
+   font-size: 20px;
+   margin-left: 5px;
+}
+
+label {
+   margin-right: 5px;
+}
+
+#loadDiv {
+   display: none;
+}
+
